@@ -79,7 +79,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         button {
             width: 100%;
             padding: 12px;
-            background-color: red;
+            background-color: #3c3c3c;
             color: white;
             border: none;
             border-radius: 4px;
@@ -87,7 +87,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         }
 
         button:hover {
-            background-color: darkred;
+            background-color: #800000;
         }
 
         /* QR Code hasil */
@@ -104,12 +104,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         a {
             display: inline-block;
             margin-top: 15px;
-            color: red;
+            color: #3c3c3c;
             text-decoration: none;
         }
 
         a:hover {
             text-decoration: underline;
+            color: #800000;
         }
     </style>
 </head>
