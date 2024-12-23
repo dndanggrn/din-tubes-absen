@@ -121,17 +121,16 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
         .back-link a {
             text-decoration: none;
-            color: white;
-            background-color: #3c3c3c;
+            color: #3c3c3c;
             padding: 10px;
             border-radius: 4px;
             display: inline-block;
             width: 100%;
-            text-align: center;
+            text-align: left;
         }
 
         .back-link a:hover {
-            background-color: #800000;
+            text-decoration: underline;
         }
     </style>
 </head>
