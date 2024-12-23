@@ -70,7 +70,7 @@ if (!isset($_SESSION['username']) || $_SESSION['role'] != 'admin') {
             display: block;
             text-align: center;
             margin-top: 20px;
-            font-size: 14px;
+            font-size: 16px;
         }
 
         .logout-link a {
